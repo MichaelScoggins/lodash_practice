@@ -127,7 +127,7 @@ const randomlyDivide = (arr) => {
   }
   return newArr
 }
-// _.chunk(), _.reverse(), _.without(), _.shuffle(). _.takeWhile()
+// _.chunk(), _.reverse(), _.without(), _.shuffle(). _.takeWhile() _.indexOf()
 
 console.log("randomly divided", randomlyDivide(randomNumber))
 console.log("pre-lodash manipulation", randomNumber)
