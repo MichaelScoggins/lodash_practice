@@ -7,6 +7,9 @@
     "no-console": "warn",
     "func-names": "off",
     "object-shorthand": "warn",
-    "class-methods-use-this": "warn"
+    "class-methods-use-this": "warn",
+    "linebreak-style": ["error", "windows"]
+
+    // "linebreak-style": "off"
   }
 }
