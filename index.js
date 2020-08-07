@@ -130,7 +130,7 @@ const randomlyDivide = (arr) => {
 // _.chunk(), _.reverse(), _.without(), _.shuffle(). _.takeWhile()
 
 console.log("randomly divided", randomlyDivide(randomNumber))
-console.log("pre lodash manipulation", randomNumber)
+console.log("pre-lodash manipulation", randomNumber)
 console.log("chunk", _.chunk(randomNumber, 1))
 console.log("reverse", _.reverse(randomNumber))
 console.log("without", _.without(randomNumber, 5, 156, 132, 15, 95, -5))
